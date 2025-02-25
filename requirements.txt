@@ -5,9 +5,7 @@ keybert==0.9.0
 keyphrase_vectorizers==0.0.13
 matplotlib==3.10.0
 nltk==3.9.1
-numpy==2.2.3
 pandas==2.2.3
-Pillow==11.1.0
 plotly==6.0.0
 Requests==2.32.3
 scikit_learn==1.6.1
@@ -15,11 +13,8 @@ seaborn==0.13.2
 spacy==3.8.4
 st_annotated_text==4.0.2
 streamlit==1.42.2
-sumy==0.11.0
-textblob==0.19.0
 translate==3.6.1
 Wikipedia_API==0.8.1
-wordcloud==1.9.4
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
 es_core_news_sm @ https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.8.0/es_core_news_sm-3.8.0-py3-none-any.whl
 en_core_web_md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl
