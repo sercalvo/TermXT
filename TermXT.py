@@ -26,6 +26,8 @@ from spacy import displacy
 from spacy.tokens import Span
 from annotated_text import annotated_text
 import io
+import nltk
+nltk.download('punkt_tab')
 
 
 # Instantiate Wikipedia API client
