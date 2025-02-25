@@ -1,0 +1,2 @@
+# TermXT
+ Terminology Mining Tool
