@@ -509,7 +509,7 @@ with st.sidebar:
 # 1. Introduction
 ###############################################################################
 if choice == "🚀 Introduction":
-    st.image("logo.svg")
+    st.image(svg_logo)
     st.title("TermXT - Terminology Mining Tool")
     st.markdown(
         """
