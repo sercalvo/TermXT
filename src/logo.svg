@@ -1,0 +1,22 @@
+
+<svg width="400" height="110" viewBox="50 50 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="none" />
+  <!-- Speech Bubble -->
+  <g transform="translate(50,50)">
+    <path d="M0 0 h140 a10 10 0 0 1 10 10 v60 a10 10 0 0 1 -10 10 h-90 l-12 12 l4 -12 a10 10 0 0 0 -4 -2 h-38 a10 10 0 0 1 -10 -10 v-60 a10 10 0 0 1 10 -10 z" fill="#34495E"/>
+    <!-- Line connecting nodes (light gray) -->
+    <line x1="45" y1="30" x2="95" y2="45" stroke="#BDC3C7" stroke-width="3"/>
+    <!-- NLP Nodes -->
+    <circle cx="95" cy="45" r="6" fill="#1ABC9C"/>
+    <circle cx="45" cy="30" r="6" fill="#d55e00"/>
+  </g>
+  <!-- Text "LocNLP" -->
+  <text x="210" y="85" font-family="Montserrat, sans-serif" font-weight="bold" font-size="35" fill="#2ac1b5">Loc</text>
+  <text x="271" y="85" font-family="Montserrat, sans-serif" font-weight="bold" font-size="35" fill="#34495E">NLP</text>
+  <!-- Text "Lab23" -->
+  <text x="210" y="125" font-family="Montserrat, sans-serif" font-size="38" font-weight="bold" fill="#34495E">Lab</text>
+  <text x="277" y="125" font-family="Montserrat, sans-serif" font-size="32" font-weight="bold" fill="#d55e00">23</text>
+  <!-- Slogan -->
+  <text x="40" y="162" font-family="Akronim, sans-serif" font-size="22" fill="#34495E">LANGUAGE AUTOMATION</text>
+</svg>
