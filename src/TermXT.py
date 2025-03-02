@@ -102,7 +102,7 @@ with open(logo_path, "w") as f:
     f.write(svg_logo)
 
 # Display the SVG logo in the sidebar
-st.sidebar.image("logo.svg", width=150)
+st.sidebar.image(svg_logo, width=150)
 
 
 
