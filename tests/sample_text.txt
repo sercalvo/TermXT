@@ -1,0 +1,5 @@
+The process of Natural Language Processing (NLP) has been evolving rapidly with advancements in Machine Learning and Artificial Intelligence. Key techniques such as Named Entity Recognition (NER), Part-of-Speech Tagging (POS), and Sentiment Analysis are essential in text processing and information extraction.
+
+In the localization industry, terminology consistency is crucial for high-quality translations. Automated terminology extraction tools help identify and manage key terms efficiently, ensuring accuracy and coherence in multilingual content.
+
+This document serves as a sample input text for testing TermXT's terminology extraction capabilities.
