@@ -6,7 +6,7 @@ TermXT is an **NLP-powered terminology extraction tool** designed to streamline 
 ## 🔹 Features
 - 🚀 **Automated Term Extraction** – Identify key terminology from text using NLP.
 - 📖 **Multilingual Support** – Works with multiple languages for global localization needs.
-- 🔍 **Terminology Consistency Check** – Ensures harmonized use of terms.
+- 🔍 **Terminology metadata harvesting** – Help gathering metadata for terms to get a harmonized termbase.
 - 📊 **Export & Integration** – Outputs to Excel, TMX, and TBX formats for easy integration.
 - ⚡ **Customizable Rules & Filters** – Refine extraction based on linguistic patterns.
 
