@@ -29,6 +29,21 @@ import io
 import nltk
 nltk.download('punkt_tab')
 
+# Determine the base directory
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Construct the absolute path to the logo.svg file
+logo_path = os.path.join(base_dir, "..", "img", "logo.svg")
+logo_icon_path = os.path.join(base_dir, "..", "img", "V-Logo-icon48.ico")
+style_path = os.path.join(base_dir, "..", "css", "V-Logo-icon48.ico")
+
+# Save the SVG to a file
+with open(logo_path, "w") as f:
+    f.write(svg_logo)
+
+# Display the SVG logo in the sidebar
+st.sidebar.image(logo_path, width=150)
+
 
 # Instantiate Wikipedia API client
 wiki_api = wikipediaapi.Wikipedia('MyProjectName (merlin@example.com)','en')
@@ -37,7 +52,7 @@ wiki_api = wikipediaapi.Wikipedia('MyProjectName (merlin@example.com)','en')
 # --- Set page configuration ---
 st.set_page_config(
     page_title="TermXT - Terminology Mining Tool",
-    page_icon="../img/V-Logo-icon48.png",
+    page_icon=logo_icon_path,
 )
 
 # Google Analytics
@@ -57,8 +72,8 @@ GA_SCRIPT = f"""
 components.html(GA_SCRIPT, height=0, scrolling=False)
 
 # --- Load custom CSS if available ---
-if os.path.exists("../css/styles.css"):
-    with open("../css/styles.css") as f:
+if os.path.exists(style_path):
+    with open(style_path) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # --- Determine working directory ---
