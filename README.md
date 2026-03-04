@@ -1,4 +1,5 @@
 # TermXT
+[Try the demo](https://termxt.streamlit.app/)
 
 ## 🔹 Overview
 TermXT is an **NLP-powered terminology extraction tool** designed to streamline the process of identifying, managing, and validating terminology within localization and translation workflows. By leveraging advanced NLP techniques, TermXT enhances terminology managment by providing a set of utils for term extraction, metadata harvesting and term annotation.
